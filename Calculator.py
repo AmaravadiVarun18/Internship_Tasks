@@ -21,6 +21,7 @@ print("4. Division")
 choice = input("Enter choice (1/2/3/4): ")
 
 try:
+    choice=int(choice)
     if choice > 4:
         print("please below 5")
         quit()
